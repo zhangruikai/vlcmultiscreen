@@ -10,19 +10,16 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.VideoView;
-
 import org.videolan.libvlc.IVLCVout;
 import org.videolan.libvlc.LibVLC;
 import org.videolan.libvlc.Media;
 import org.videolan.libvlc.MediaPlayer;
 import org.videolan.libvlc.MediaPlayer.Event;
 import org.videolan.libvlc.MediaPlayer.EventListener;
-
 //import org.videolan.libvlc.IVLCVout;
 //import org.videolan.libvlc.LibVLC;
 //import org.videolan.libvlc.Media;
 //import org.videolan.libvlc.MediaPlayer;
-
 
 public class VideoActivity extends Activity {
     public final static String TAG = "LibVLCAndroidSample/VideoActivity";
@@ -41,7 +38,7 @@ public class VideoActivity extends Activity {
 
 //		String video="/sdcard/SONG/index.mpg";
 //		String video="/storage/extsd/231971.mpg";
-//        String video = "shine_net://tcp@10.0.1.153:5020";
+//      String video = "shine_net://tcp@10.0.1.153:5020";
         String video = "shine_net://tcp@10.0.1.153:5020";
 
 
